@@ -1,3 +1,5 @@
+if (typeof __dirname === "undefined") global.__dirname = "/";
+if (typeof __filename === "undefined") global.__filename = "";
 require("node-libs-expo/globals");
 import * as Random from "expo-random";
 // implement window.getRandomValues(), for packages that rely on it
